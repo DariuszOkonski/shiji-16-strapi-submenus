@@ -374,8 +374,6 @@ Sidebar
   transition-duration: 1s;
 }
 
-/* toggle-class */
-
 .sidebar-container {
   padding: 4rem 2rem;
   position: relative;
@@ -423,5 +421,38 @@ Sidebar
 @media screen and (min-width: 992px) {
   .sidebar {
     display: none;
+  }
+}
+
+/* 
+============= 
+Nav Links
+=============== 
+*/
+
+.nav-links {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-links {
+    display: flex;
+    justify-content: center;
+  }
+
+  .nav-center {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+
+  .nav-links button {
+    padding: 0 1rem;
+    background: transparent;
+    border-color: transparent;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    letter-spacing: var(--letterSpacing);
+    color: var(--white);
+    cursor: pointer;
   }
 }
