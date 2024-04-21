@@ -456,3 +456,17 @@ Nav Links
     cursor: pointer;
   }
 }
+
+/* 
+============= 
+Sub Menu
+=============== 
+*/
+
+.submenu {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  width: 50%;
+  background: yellow;
+}
