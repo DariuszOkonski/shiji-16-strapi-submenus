@@ -13,7 +13,7 @@ const NavLinks = () => {
             key={pageId}
             className='nav-link'
             onMouseEnter={() => setPageId(pageId)}
-            onMouseLeave={() => setPageId(null)}
+            // onMouseLeave={() => setPageId(null)}
           >
             {page}
           </button>
